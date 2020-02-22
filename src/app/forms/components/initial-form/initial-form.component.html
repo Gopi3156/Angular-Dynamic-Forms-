@@ -1,0 +1,15 @@
+<!-- this is the basical form without any ReactiveFormsModule or normal FormsModule-->
+
+<form (submit)="onSubmit($event)">
+
+  <!--For accessbility purposes label is required so it helps the label for which input type
+  this is useful if we have multiple input types and labels so there will be a realtion which
+  belongs to which one.
+  -->
+  <label for="name"></label>
+  <!--property binding here value is the html attribute -->
+  <input id="name" type="text" [value]="initVal">
+  <!--If we have submit inside a form without no keyup.enter is required on the input
+  so on just enter the form will be submitted by the submit method will be triggered.-->
+  <button style="display: none;"></button>
+</form>

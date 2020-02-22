@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import {InitialFormComponent} from "../initial-form/initial-form.component";
+import {InitialFormComponent} from "./components/initial-form/initial-form.component";
 
 const components = [InitialFormComponent];
 
